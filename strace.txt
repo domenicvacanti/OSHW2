@@ -1,0 +1,5 @@
+1.) A echo function is called.
+2.) "echo", "hello world from strace" are the inputs.
+3.) 1 is used for stdout, 2 is used for stderr
+4.) When the program prints to file descriptor 1 it is printing to the console. Or in this case, prints "hello world from strace".
+5.) It doesn't return anything, but it does print to the console "hello world from strace".
